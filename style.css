@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Home Page</title>
+
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+body 
+{
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: sans-serif;
+}
+
+
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+.navbar {
+  background-color: #1a1a1a;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar a {
+  display: block;
+  color: #FE019A;
+  text-decoration: none;
+  padding: 16px 24px;
+}
+.navbar a:hover {
+  background-color: #FFB703;
+  color: #FE019A;
+}
+.navbar a.active {
+  background-color: #FE019A;
+  color: #FE019A;
+}
+
+
+
+</body>
+</html>

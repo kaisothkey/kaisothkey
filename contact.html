@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+<body style="background-image: url('scanbook.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; min-height: 100vh; margin: 0;">
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 40px 0; box-sizing: border-box;">
+
+ 
+  <form action="https://formsubmit.co" method="POST" style="width: 100%; max-width: 500px; padding: 20px; box-sizing: border-box;">
+    
+    <!-- Name Field -->
+    <label for="name" style="color: orange; font-weight: bold; display: block; margin-bottom: 8px;">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required 
+           style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-bottom: 20px;">
+
+    <!-- Email Field -->
+    <label for="email" style="color: orange; font-weight: bold; display: block; margin-bottom: 8px;">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required 
+           style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-bottom: 20px;">
+
+    <!-- Message Field -->
+    <label for="message" style="color: orange; font-weight: bold; display: block; margin-bottom: 8px;">Your Message:</label>
+    <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required 
+              style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-bottom: 20px; resize: vertical;"></textarea>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit" 
+           style="width: 100%; background-color: orange; color: white; border: none; padding: 12px; font-weight: bold; font-size: 1rem; border-radius: 4px; cursor: pointer; transition: background-color 0.2s ease;">
+
+  </form>
+
+</div>
+
+</form>
+
+</body>
+</html>
